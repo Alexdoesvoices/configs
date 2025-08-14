@@ -12,4 +12,7 @@ git clone https://github.com/Alexdoesvoices/configs
 ```
 
 
+## **Side Note**
+Some of these configs may have file paths that do not exist on your computer.
+
 
