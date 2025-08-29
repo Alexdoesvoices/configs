@@ -6,4 +6,3 @@ choco install firefox -y
 choco install ruby -y
 choco install python -y 
 choco install nodejs -y 
-choco install 
