@@ -97,6 +97,11 @@ function Set-TerminalTabName {
 set-Alias tn Set-TerminalTabName
 
 
+function Micro-Editor-Shortcut {
+	micro @args
+}
+set-Alias m Micro-Editor-Shortcut
+
 # Import the Chocolatey Profile that contains the necessary code to enable
 # tab-completions to function for `choco`.
 # Be aware that if you are missing these lines from your profile, tab completion
