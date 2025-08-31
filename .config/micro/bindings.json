@@ -4,6 +4,8 @@
     "Alt-w": "CommandMode",
     "Alt-q": "command:fzf",
     "Alt-e": "ShellMode",
+    "Alt-`": "Save",
+    "Alt-x": "Quit",
     "CtrlBackslash": "lua:comment.comment",
     "CtrlUnderscore": "lua:comment.comment"
 }
