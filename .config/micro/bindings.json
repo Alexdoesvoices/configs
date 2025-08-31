@@ -1,10 +1,9 @@
 {
     "Alt-/": "lua:comment.comment",
     "Ctrl-Backspace": "DeleteWordLeft",
-    "Ctrl-o": "CommandMode",
-    "Ctrl-l": "command:fzf",
-    "Ctrl-p": "ShellMode",
+    "Alt-w": "CommandMode",
+    "Alt-q": "command:fzf",
+    "Alt-e": "ShellMode",
     "CtrlBackslash": "lua:comment.comment",
-    "CtrlUnderscore": "lua:comment.comment",
-    "F1": "command:tree"
+    "CtrlUnderscore": "lua:comment.comment"
 }
