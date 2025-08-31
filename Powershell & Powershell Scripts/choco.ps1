@@ -6,3 +6,4 @@ choco install nodejs -y
 choco install python -y 
 choco install ruby -y
 choco install starship -y
+choco install micro -y
