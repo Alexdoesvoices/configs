@@ -3,9 +3,9 @@
     "Ctrl-Backspace": "DeleteWordLeft",
     "Alt-w": "CommandMode",
     "Alt-q": "command:fzf",
-    "Alt-e": "ShellMode",
+    "Alt-s": "ShellMode",
     "Alt-`": "Save",
-    "Alt-x": "Quit",
+    "Alt-z": "Quit",
     "CtrlBackslash": "lua:comment.comment",
     "CtrlUnderscore": "lua:comment.comment"
 }
