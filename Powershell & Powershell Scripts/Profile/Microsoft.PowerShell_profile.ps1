@@ -17,6 +17,8 @@ apdata - Enters the Apdata: ps drive
 clls - Clear the screen and list the contents of the directory at the same time.
 
 tn - Changes the terminal tab name.
+
+me - Micro Editor
 "@
 }
 Set-Alias pshelp Ps-Help-Container
@@ -100,7 +102,7 @@ set-Alias tn Set-TerminalTabName
 function Micro-Editor-Shortcut {
 	micro @args
 }
-set-Alias m Micro-Editor-Shortcut
+set-Alias me Micro-Editor-Shortcut
 
 # Import the Chocolatey Profile that contains the necessary code to enable
 # tab-completions to function for `choco`.
