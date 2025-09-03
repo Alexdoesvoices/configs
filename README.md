@@ -9,7 +9,7 @@ In these files there will be some paths that I have set that will not exist on y
 1. Install the Chocolatey Package Manager from: https://community.chocolatey.org/
     * This will be required to run the **choco.ps1** installation script later. 
     
-    2. Run 
+    * Run:
 
         ```ps
         sudo choco install git   
