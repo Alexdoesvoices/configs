@@ -1,4 +1,3 @@
-#! Checks if its an administrator terminal if not it opens one:
 param([switch]$Elevated)
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass -Force
 
@@ -15,9 +14,6 @@ if ((Test-Admin) -eq $false)  {
     }
     exit 1
 }
-
-# ! Sets Bypass on the Execution policy: 
-Set-ExecutionPolicy Bypass -Scope Process
 
 # !Install the Chocolaty Package Manager:
 # TODO: UnComment Following Line:
@@ -101,15 +97,13 @@ git clone https://www.github.com/alexdoesvoices/configs
 # TODO: UnComment Following Lines:
 # Copy-Item -Path "$HOME\Downloads\configs\.config" -Destination "$Home\" -Recurse -Force
 
-# TODO: Delete Following Line:
-Copy-Item -Path "$HOME\Downloads\configs\.config" -Destination "$Home\Downloads\ConfigTest" -Recurse -Force
 
+# TODO ! Copy Powershell Profile to Location:
+# TODO: Uncomment the Line belowl:
+# Copy-Item -Path "$HOME\Downloads\configs\Powershell & Powershell Scripts\Profile\Microsoft.PowerShell_profile.ps1" -Destination "$Home\Documents\WindowsPowerShell\" -Force
 
+# ! Clone Git Configs:
 
-#TODO ! Copy Powershell Profile to Location:
-
-
-#TODO ! Copy Git Configs to Location:
 
 
 
