@@ -1,4 +1,4 @@
-# Checks if its an administrator terminal if not it opens one:
+#! Checks if its an administrator terminal if not it opens one:
 param([switch]$Elevated)
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass -Force
 
@@ -16,7 +16,11 @@ if ((Test-Admin) -eq $false)  {
     exit 1
 }
 
+# ! Sets Bypass on the Execution policy: 
+Set-ExecutionPolicy Bypass -Scope Process
+
 # !Install the Chocolaty Package Manager:
+# TODO: UnComment Following Line:
 # Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
 
@@ -35,14 +39,14 @@ catch {
 }
 
 
-# !Create an array of application names
+# ! Choco Install Script
+# Create an array of application names
 $apps = @(
     "discord",
     "ditto",
     "fastfetch",
     "firefox",
     "flow-launcher",
-    "git"
     "googledrive",
     "micro",
     "nodejs",
@@ -52,6 +56,15 @@ $apps = @(
     "vivaldi",
     "vscode"
 )
+
+# Loop through each application and upgrade it
+foreach ($app in $apps) {
+    Write-Host "Upgrading $app..." -ForegroundColor Green
+    choco upgrade $app -y
+    Write-Host "Finished upgrading $app." -ForegroundColor Green
+}
+
+Write-Host "All specified applications have been upgraded." -ForegroundColor Cyan
 
 
 #! Create an array of global Node.js package names
@@ -71,31 +84,32 @@ foreach ($package in $packages) {
 Write-Host "All specified global Node.js packages have been upgraded." -ForegroundColor Cyan
 
 
-
-# !Loop through each application and upgrade it
-foreach ($app in $apps) {
-    Write-Host "Upgrading $app..." -ForegroundColor Green
-    choco upgrade $app -y
-    Write-Host "Finished upgrading $app." -ForegroundColor Green
-}
-
-Write-Host "All specified applications have been upgraded." -ForegroundColor Cyan
-
-# Get User input for Git Username and Email:
+#? Get User input for Git Username and Email:
 $GitName = Read-Host "What is your Git Username"
 $GitEmail = Read-Host "What is your Git Email"
 
 
 # ! Configure Git Username and Email:
+# TODO: UnComment Following Lines:
 # git config --global user.name '$GitName'
 # git config --global user.email '$GitEmail'
 
-#? 
+#? Changes Directory To Downloads and Clones the Configs Repository:
 Set-Location "$HOME\Downloads"
 git clone https://www.github.com/alexdoesvoices/configs
 
+# TODO: UnComment Following Lines:
+# Copy-Item -Path "$HOME\Downloads\configs\.config" -Destination "$Home\" -Recurse - Force
+
+# TODO: Delete Following Line:
+Copy-Item -Path "$HOME\Downloads\configs\.config" -Destination "$Home\Downloads\ConfigTest" -Recurse -Force
 
 
+
+#TODO ! Copy Powershell Profile to Location:
+
+
+#TODO ! Copy Git Configs to Location:
 
 
 
