@@ -34,7 +34,7 @@ In these files there will be some paths that I have set that will not exist on y
         git config --global user.email "YOUR_EMAIL"
         ```
 
-    * Open a terminal then run:
+    * Open a Administrator Terminal then run:
         ```ps
         cd downloads
         ```
@@ -44,8 +44,21 @@ In these files there will be some paths that I have set that will not exist on y
         ```
         Then:
         ```ps
-        cd configs ; start .
+        cd configs
         ```
+
+3. Now we are going to run the Install Scripts:
+
+    ```ps
+    cd '.\Powershell & Powershell Scripts\'
+    ```
+
+    * Now for the Chocolaty Packages Install script:
+        * Type:
+            ```ps
+            .\choco.ps1
+            ```
+
 
 
 
