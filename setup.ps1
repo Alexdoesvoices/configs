@@ -99,7 +99,7 @@ Set-Location "$HOME\Downloads"
 git clone https://www.github.com/alexdoesvoices/configs
 
 # TODO: UnComment Following Lines:
-# Copy-Item -Path "$HOME\Downloads\configs\.config" -Destination "$Home\" -Recurse - Force
+# Copy-Item -Path "$HOME\Downloads\configs\.config" -Destination "$Home\" -Recurse -Force
 
 # TODO: Delete Following Line:
 Copy-Item -Path "$HOME\Downloads\configs\.config" -Destination "$Home\Downloads\ConfigTest" -Recurse -Force
