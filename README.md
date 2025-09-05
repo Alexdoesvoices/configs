@@ -4,6 +4,13 @@ This is a online repistory with my config files for certain applications, along 
 
 In these files there will be some paths that I have set that will not exist on your machine. (Ex: Ps Drive Locations in the Powsershell Profile.)
 
+
+# **System Info**
+
+**Operating System: Windows 11**
+
+**Shell: PowerShell**
+
 # **Instructions**
 
 1. Install the Chocolatey Package Manager from: https://community.chocolatey.org/
@@ -35,9 +42,10 @@ In these files there will be some paths that I have set that will not exist on y
         ```sh
         git clone https://github.com/Alexdoesvoices/configs 
         ```
-        <!-- ```ps
+        Then:
+        ```ps
         cd configs ; start .
-        ``` -->
+        ```
 
 
 

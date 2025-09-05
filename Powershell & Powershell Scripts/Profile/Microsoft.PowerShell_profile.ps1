@@ -1,4 +1,3 @@
-
 # PSHELP COMMAND
 function Ps-Help-Container {
 @"
@@ -98,11 +97,11 @@ function Set-TerminalTabName {
 }
 set-Alias tn Set-TerminalTabName
 
-
 function Micro-Editor-Shortcut {
 	micro @args
 }
 set-Alias me Micro-Editor-Shortcut
+
 
 # Import the Chocolatey Profile that contains the necessary code to enable
 # tab-completions to function for `choco`.
