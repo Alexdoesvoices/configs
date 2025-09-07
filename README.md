@@ -34,7 +34,7 @@ In these files there will be some paths that I have set that will not exist on y
         git config --global user.email "YOUR_EMAIL"
         ```
 
-    * Open a Administrator Terminal then run:
+    * Open a **Administrator** Terminal then run:
         ```ps
         cd downloads
         ```
