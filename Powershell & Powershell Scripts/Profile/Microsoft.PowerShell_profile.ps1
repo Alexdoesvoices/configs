@@ -1,16 +1,14 @@
+# Start starship dock:
+Invoke-Expression (&starship init powershell)
+
 # PSHELP COMMAND
-function Ps-Help-Container {
+function Pshelp-Container {
 @"
 clls - Clear the screen and list the contents of the directory at the same time.
 "@
 }
-Set-Alias pshelp Ps-Help-Container
+Set-Alias pshelp Pshelp-Container
 # End.
-
-
-# Start starship dock:
-Invoke-Expression (&starship init powershell)
-
 
 # Alias for Clearing and Ls:
 function clear-ls {
@@ -19,7 +17,6 @@ function clear-ls {
 }
 Set-Alias clls clear-ls
 # END
-
 
 # Import the Chocolatey Profile that contains the necessary code to enable
 # tab-completions to function for `choco`.
