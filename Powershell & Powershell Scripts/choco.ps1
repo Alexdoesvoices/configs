@@ -13,4 +13,4 @@ choco upgrade starship -y
 choco upgrade vivaldi -y 
 choco upgrade vlc -y
 choco upgrade vscode -y
-choco upgrade windirstat -y"
+choco upgrade windirstat -y
