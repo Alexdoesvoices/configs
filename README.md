@@ -44,7 +44,7 @@ In these files there will be some paths that I have set that will not exist on y
         ```
         Then:
         ```ps
-        cd configs
+        cd .\configs\        
         ```
 
 3. Now we are going to run the Install Scripts:
