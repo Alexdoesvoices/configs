@@ -1,3 +1,3 @@
-npm install -g ember-cli -y
-npm install -g live-server -y
-npm install -g corepack -y
+npm install corepack -g -y
+npm install live-server -g -y
+npm install pm2 -g -y
