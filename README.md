@@ -61,6 +61,9 @@ In these files there will be some paths that I have set that will not exist on y
 
 
 
-[a relative](https://github.com/Alexdoesvoices/configs/blob/master/Other%26Screenshots/Other_Installs.md)
+
+# **Other Installs**
+
+**[Link to 'Other_Installs.ms'](https://github.com/Alexdoesvoices/configs/blob/master/Other%26Screenshots/Other_Installs.md)**
 
 
