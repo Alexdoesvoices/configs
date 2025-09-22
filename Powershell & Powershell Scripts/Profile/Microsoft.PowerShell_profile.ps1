@@ -5,12 +5,13 @@ Invoke-Expression (&starship init powershell)
 function Pshelp-Container {
 @"
 clls - Clear the screen and list the contents of the directory at the same time.
+touch - Creates a file in the current directory.
 "@
 }
 Set-Alias pshelp Pshelp-Container
 # End.
 
-# Alias for Clearing and Ls:
+#! Alias for Clearing and Ls:
 function clear-ls {
     Clear-Host
     Get-ChildItem
@@ -18,11 +19,11 @@ function clear-ls {
 Set-Alias clls clear-ls
 # END
 
-# Import the Chocolatey Profile that contains the necessary code to enable
-# tab-completions to function for `choco`.
-# Be aware that if you are missing these lines from your profile, tab completion
-# for `choco` will not function.
-# See https://ch0.co/tab-completion for details.
+#! Creates a file in the current directory:
+function touch($file) {
+        "" | Out-File $file -Encoding ASCII
+}
+
 $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
 if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
