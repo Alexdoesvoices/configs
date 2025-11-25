@@ -44,21 +44,8 @@ In these files there will be some paths that I have set that will not exist on y
         ```
         Then:
         ```ps
-        cd .\configs\        
+        .\choco.ps1      
         ```
-
-3. Now we are going to run the Install Scripts:
-
-    ```ps
-    cd '.\Powershell & Powershell Scripts\'
-    ```
-
-    * Now for the Chocolaty Packages Install script:
-        * Type:
-            ```ps
-            .\choco.ps1
-            ```
-
 
 
 
