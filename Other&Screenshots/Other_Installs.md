@@ -12,4 +12,4 @@
 
 **6.[Asus Crate](https://rog.asus.com/us/motherboards/rog-strix/rog-strix-b550-f-gaming-model/helpdesk_download/)**
 
-**7.[Bun]**
+**7.[Bun](https://bun.com/)**
