@@ -42,6 +42,10 @@ In these files there will be some paths that I have set that will not exist on y
         ```sh
         git clone https://github.com/Alexdoesvoices/configs 
         ```
+		Now:
+		```sh
+		cd .\configs
+		```
         Then:
         ```ps
         .\choco.ps1      
