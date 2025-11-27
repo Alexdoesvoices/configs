@@ -16,10 +16,10 @@ In these files there will be some paths that I have set that will not exist on y
 1. Install the Chocolatey Package Manager from: https://community.chocolatey.org/
     * This will be required to run the **choco.ps1** installation script later. 
     
-    * Run:
+    * In a **Administrator** terminal run:
 
         ```ps
-        sudo choco install git   
+        choco install git   
         ```
 
 2. Configure Git:
@@ -34,7 +34,7 @@ In these files there will be some paths that I have set that will not exist on y
         git config --global user.email "YOUR_EMAIL"
         ```
 
-    * Open a **Administrator** Terminal then run:
+    * Back in the **Administrator** terminal run:
         ```sh
         cd downloads
         ```
