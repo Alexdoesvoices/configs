@@ -45,7 +45,7 @@ disabled = false
 
 # DIRECTORY MODULE
 [directory]
-style = "bold blue"
+style = "bold red"
 read_only = " "
 truncation_length = 3
 truncate_to_repo = false
