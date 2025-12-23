@@ -3,6 +3,8 @@ choco upgrade ditto -y
 choco upgrade fastfetch -y
 choco upgrade firefox -y
 choco upgrade flow-launcher -y
+choco upgrade gh -y
+choco upgrade git -y
 choco upgrade googledrive -y
 choco upgrade micro -y
 choco upgrade mingw -y
