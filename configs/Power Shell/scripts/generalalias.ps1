@@ -14,10 +14,6 @@ function get-fullpath {
 }
 Set-Alias fpwd get-fullpath
 
-function fedora-ssh {
-	ssh arobinson@192.168.68.82
-}
-Set-Alias fsh fedora-ssh
 
 function cat-profile {
 	clear
