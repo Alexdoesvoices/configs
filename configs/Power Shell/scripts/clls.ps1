@@ -8,3 +8,4 @@ function clear-ls {
 	
 }
 set-alias clls clear-ls
+set-alias csls clear-ls
