@@ -1,0 +1,3 @@
+[alias]
+    cmp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
+    newbranch = "!f() { git switch -c $1 && git push -u origin $1; }; f"
