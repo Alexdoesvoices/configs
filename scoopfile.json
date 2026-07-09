@@ -1,101 +1,94 @@
 {
     "apps": [
         {
-            "Updated": "2026-06-26T12:26:20.6297994-05:00",
             "Version": "26.02",
             "Name": "7zip",
             "Info": "",
+            "Updated": "2026-06-26T12:26:20.6297994-05:00",
             "Source": "main"
         },
         {
-            "Updated": "2026-06-09T13:38:25.8618725-05:00",
             "Version": "1.37.0-1",
             "Name": "aria2",
             "Info": "",
+            "Updated": "2026-06-09T13:38:25.8618725-05:00",
             "Source": "main"
         },
         {
-            "Updated": "2026-06-21T15:56:52.2866445-05:00",
-            "Version": "8.1.1",
+            "Version": "3.25.113.0",
+            "Name": "ditto",
+            "Info": "",
+            "Updated": "2026-07-09T17:11:44.3062178-05:00",
+            "Source": "extras"
+        },
+        {
+            "Version": "8.1.2",
             "Name": "ffmpeg",
             "Info": "",
+            "Updated": "2026-07-01T20:58:08.7392122-05:00",
             "Source": "main"
         },
         {
-            "Updated": "2026-06-21T16:00:59.8942466-05:00",
-            "Version": "1.39.0",
-            "Name": "fnm",
-            "Info": "",
-            "Source": "main"
-        },
-        {
-            "Updated": "2026-06-25T11:33:51.2500881-05:00",
-            "Version": "0.73.1",
+            "Version": "0.74.0",
             "Name": "fzf",
             "Info": "",
+            "Updated": "2026-07-08T10:45:37.4746098-05:00",
             "Source": "main"
         },
         {
-            "Updated": "2026-06-21T16:08:03.0616875-05:00",
-            "Version": "2.95.0",
+            "Version": "2.96.0",
             "Name": "gh",
             "Info": "",
+            "Updated": "2026-07-08T10:45:39.3860983-05:00",
             "Source": "main"
         },
         {
-            "Updated": "2026-06-21T16:11:00.6529594-05:00",
-            "Version": "2.54.0",
+            "Version": "2.55.0.2",
             "Name": "git",
             "Info": "",
+            "Updated": "2026-07-08T10:46:40.8426856-05:00",
             "Source": "main"
         },
         {
-            "Updated": "2026-06-23T08:32:49.3112822-05:00",
-            "Version": "1.54.0",
+            "Version": "1.55.1",
             "Name": "just",
             "Info": "",
+            "Updated": "2026-07-01T20:58:33.6843924-05:00",
             "Source": "main"
         },
         {
-            "Updated": "2026-06-21T16:09:36.2958158-05:00",
             "Version": "2.0.15",
             "Name": "micro",
             "Info": "",
+            "Updated": "2026-06-21T16:09:36.2958158-05:00",
             "Source": "main"
         },
         {
-            "Updated": "2026-06-21T16:06:12.0176283-05:00",
-            "Version": "16.1.0-rt_v14-rev1",
-            "Name": "mingw",
-            "Info": "",
-            "Source": "main"
-        },
-        {
-            "Updated": "2026-06-25T07:56:07.8130635-05:00",
-            "Version": "2026.6.14",
+            "Version": "2026.7.2",
             "Name": "mise",
             "Info": "",
+            "Updated": "2026-07-08T10:46:45.4666958-05:00",
             "Source": "main"
         },
         {
-            "Updated": "2026-06-28T16:00:52.6324522-05:00",
-            "Version": "0.12.3",
-            "Name": "neovim",
-            "Info": "",
-            "Source": "main"
-        },
-        {
-            "Updated": "2026-06-26T12:26:21.8082529-05:00",
-            "Version": "5.23.1",
+            "Version": "5.25.0",
             "Name": "railway",
             "Info": "",
+            "Updated": "2026-07-08T10:46:46.7910386-05:00",
             "Source": "main"
         },
         {
-            "Updated": "2026-06-21T15:55:55.6545102-05:00",
-            "Version": "2026.06.09",
+            "Version": "1.26.0",
+            "Name": "starship",
+            "Info": "",
+            "Updated": "2026-07-09T17:10:26.239267-05:00",
+            "Source": "main"
+        },
+        {
+            "Version": "2026.07.04",
             "Name": "yt-dlp",
             "Info": "",
+            "Updated": "2026-07-08T10:46:49.0049823-05:00",
             "Source": "main"
         }
     ],
@@ -103,14 +96,14 @@
         {
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
-            "Updated": "2026-06-28T15:43:59-05:00",
-            "Manifests": 1593
+            "Updated": "2026-07-09T15:56:31-05:00",
+            "Manifests": 1608
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
-            "Updated": "2026-06-28T15:43:35-05:00",
-            "Manifests": 2321
+            "Updated": "2026-07-09T16:02:17-05:00",
+            "Manifests": 2343
         }
     ]
 }
