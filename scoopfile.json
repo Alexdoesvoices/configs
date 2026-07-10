@@ -1,116 +1,116 @@
 {
-    "apps": [
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "7zip",
-            "Version": "26.02",
-            "Updated": "2026-06-26T12:26:20.6297994-05:00"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "aria2",
-            "Version": "1.37.0-1",
-            "Updated": "2026-06-09T13:38:25.8618725-05:00"
-        },
-        {
-            "Info": "",
-            "Source": "extras",
-            "Name": "ditto",
-            "Version": "3.25.113.0",
-            "Updated": "2026-07-09T17:11:44.3062178-05:00"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "fastfetch",
-            "Version": "2.65.2",
-            "Updated": "2026-07-09T19:23:49.5972192-05:00"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "ffmpeg",
-            "Version": "8.1.2",
-            "Updated": "2026-07-01T20:58:08.7392122-05:00"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "fzf",
-            "Version": "0.74.0",
-            "Updated": "2026-07-08T10:45:37.4746098-05:00"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "gh",
-            "Version": "2.96.0",
-            "Updated": "2026-07-08T10:45:39.3860983-05:00"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "git",
-            "Version": "2.55.0.2",
-            "Updated": "2026-07-08T10:46:40.8426856-05:00"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "just",
-            "Version": "1.55.1",
-            "Updated": "2026-07-01T20:58:33.6843924-05:00"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "micro",
-            "Version": "2.0.15",
-            "Updated": "2026-06-21T16:09:36.2958158-05:00"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "mise",
-            "Version": "2026.7.4",
-            "Updated": "2026-07-09T19:13:49.7284848-05:00"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "railway",
-            "Version": "5.26.0",
-            "Updated": "2026-07-09T19:13:51.1373544-05:00"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "starship",
-            "Version": "1.26.0",
-            "Updated": "2026-07-09T17:10:26.239267-05:00"
-        },
-        {
-            "Info": "",
-            "Source": "main",
-            "Name": "yt-dlp",
-            "Version": "2026.07.04",
-            "Updated": "2026-07-08T10:46:49.0049823-05:00"
-        }
-    ],
     "buckets": [
         {
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main.git",
-            "Updated": "2026-07-09T15:56:31-05:00",
+            "Updated": "2026-07-10T12:00:11-05:00",
             "Manifests": 1608
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
-            "Updated": "2026-07-09T16:02:17-05:00",
-            "Manifests": 2343
+            "Updated": "2026-07-10T14:04:06-05:00",
+            "Manifests": 2344
+        }
+    ],
+    "apps": [
+        {
+            "Updated": "2026-06-26T12:26:20.6297994-05:00",
+            "Name": "7zip",
+            "Info": "",
+            "Source": "main",
+            "Version": "26.02"
+        },
+        {
+            "Updated": "2026-06-09T13:38:25.8618725-05:00",
+            "Name": "aria2",
+            "Info": "",
+            "Source": "main",
+            "Version": "1.37.0-1"
+        },
+        {
+            "Updated": "2026-07-09T17:11:44.3062178-05:00",
+            "Name": "ditto",
+            "Info": "",
+            "Source": "extras",
+            "Version": "3.25.113.0"
+        },
+        {
+            "Updated": "2026-07-10T14:05:49.9217238-05:00",
+            "Name": "fastfetch",
+            "Info": "",
+            "Source": "main",
+            "Version": "2.66.0"
+        },
+        {
+            "Updated": "2026-07-01T20:58:08.7392122-05:00",
+            "Name": "ffmpeg",
+            "Info": "",
+            "Source": "main",
+            "Version": "8.1.2"
+        },
+        {
+            "Updated": "2026-07-08T10:45:37.4746098-05:00",
+            "Name": "fzf",
+            "Info": "",
+            "Source": "main",
+            "Version": "0.74.0"
+        },
+        {
+            "Updated": "2026-07-08T10:45:39.3860983-05:00",
+            "Name": "gh",
+            "Info": "",
+            "Source": "main",
+            "Version": "2.96.0"
+        },
+        {
+            "Updated": "2026-07-08T10:46:40.8426856-05:00",
+            "Name": "git",
+            "Info": "",
+            "Source": "main",
+            "Version": "2.55.0.2"
+        },
+        {
+            "Updated": "2026-07-10T14:05:51.1130335-05:00",
+            "Name": "just",
+            "Info": "",
+            "Source": "main",
+            "Version": "1.56.0"
+        },
+        {
+            "Updated": "2026-06-21T16:09:36.2958158-05:00",
+            "Name": "micro",
+            "Info": "",
+            "Source": "main",
+            "Version": "2.0.15"
+        },
+        {
+            "Updated": "2026-07-10T14:05:56.552298-05:00",
+            "Name": "mise",
+            "Info": "",
+            "Source": "main",
+            "Version": "2026.7.5"
+        },
+        {
+            "Updated": "2026-07-09T19:13:51.1373544-05:00",
+            "Name": "railway",
+            "Info": "",
+            "Source": "main",
+            "Version": "5.26.0"
+        },
+        {
+            "Updated": "2026-07-09T17:10:26.239267-05:00",
+            "Name": "starship",
+            "Info": "",
+            "Source": "main",
+            "Version": "1.26.0"
+        },
+        {
+            "Updated": "2026-07-08T10:46:49.0049823-05:00",
+            "Name": "yt-dlp",
+            "Info": "",
+            "Source": "main",
+            "Version": "2026.07.04"
         }
     ]
 }
