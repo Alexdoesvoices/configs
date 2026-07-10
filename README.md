@@ -13,13 +13,13 @@ In these files there will be some paths that I have set that will not exist on y
 
 # **Instructions**
 
-1. Install the Chocolatey Package Manager from: https://community.chocolatey.org/
-    * This will be required to run the **choco.ps1** installation script later. 
+1. Install the Scoop Package Manager from: https://scoop.sh/
+    * This will be required to run the **scoopfile.json** installation script later. 
     
-    * In a **Administrator** terminal run:
+    * In a terminal run:
 
         ```ps
-        choco install git   
+        scoop install git   
         ```
 
 2. Configure Git:
@@ -34,7 +34,7 @@ In these files there will be some paths that I have set that will not exist on y
         git config --global user.email "YOUR_EMAIL"
         ```
 
-    * Back in the **Administrator** terminal run:
+    * Back in the terminal run:
         ```sh
         cd downloads
         ```
@@ -48,7 +48,7 @@ In these files there will be some paths that I have set that will not exist on y
 		```
         Then:
         ```ps
-        .\choco.ps1      
+        scoop import scoopfile.json      
         ```
 
 
