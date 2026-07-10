@@ -80,13 +80,6 @@
         {
             "Info": "",
             "Source": "main",
-            "Name": "neovim",
-            "Version": "0.12.4",
-            "Updated": "2026-07-09T19:14:55.2554268-05:00"
-        },
-        {
-            "Info": "",
-            "Source": "main",
             "Name": "railway",
             "Version": "5.26.0",
             "Updated": "2026-07-09T19:13:51.1373544-05:00"
