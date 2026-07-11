@@ -3,8 +3,8 @@
 	newbranch = "!f() { git switch -c $1 && git push -u origin $1; }; f"
 	aliases = "config --get-regexp "
 [user]
-	email = alexrrobinson05@gmail.com
-	name = Alex Robinson
+	email = 50270256+Alexdoesvoices@users.noreply.github.com
+	name = Alexander
 [credential "helperselector"]
 	selected = manager
 [init]
