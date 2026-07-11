@@ -4,7 +4,7 @@
 	aliases = "config --get-regexp "
 [user]
 	email = 50270256+Alexdoesvoices@users.noreply.github.com
-	name = Alexander
+	name = Alexander Robinson
 [credential "helperselector"]
 	selected = manager
 [init]
