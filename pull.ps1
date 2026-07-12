@@ -16,7 +16,13 @@ Copy-Item -Path "$local_config_folder/.gitconfig" -Destination "$root" -Force
 
 # PowerShell profile
 function pull_powershell_profile {
-Copy-Item -Path "$local_config_folder\Powershell" -Destination "$documents_folder" -Recurse -Force
+    $targetLiveFolder = Join-Path $documents_folder "PowerShell"
+
+    if (Test-Path $targetLiveFolder) {
+        Remove-Item -Path $targetLiveFolder -Recurse -Force
+    }
+
+    Copy-Item -Path "$local_config_folder\PowerShell" -Destination $documents_folder -Recurse -Force
 }
 
 

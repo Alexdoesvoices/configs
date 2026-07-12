@@ -15,9 +15,16 @@ function copy_git_config {
 }
 
 function copy_powershell_profile {
-Copy-Item -Path "$powershell_profile" -Destination "$local_config_folder" -Recurse -Force 
-}
+    $profilePath = $powershell_profile.TrimEnd('\')
+    
+    $destFolder = Join-Path $local_config_folder (Split-Path $profilePath -Leaf)
 
+    if (Test-Path $destFolder) {
+        Remove-Item -Path $destFolder -Recurse -Force
+    }
+
+    Copy-Item -Path $profilePath -Destination $local_config_folder -Recurse -Force 
+}
 
 do {
     Clear-Host
