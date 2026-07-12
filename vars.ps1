@@ -6,4 +6,4 @@ $desktop_config_folder = "C:\Users\$user\.config\";
 
 $documents_folder = "C:\Users\$user\Documents\";
 
-$powershell_profile = "C:\Users\$user\Documents\PowerShell"
+$powershell_profile = "C:\Users\$user\Documents\PowerShell";
